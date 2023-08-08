@@ -7,7 +7,7 @@ Font Weight: 500, 700, 800
     /* PRIMARY COLORS */
     --light-red: hsl(0, 100%, 67%);
     --orange-yellow: hsl(39, 100%, 56%);
-    --green-teal: hsl(166, 100%, 37%);
+    --green-teal: #00bd91;
     --cobalt-blue: hsl(234, 85%, 45%);
 
     /* GRADIENTS */
@@ -135,7 +135,7 @@ body {
 }
 
 .summary_reaction {
-    background-color: hsla(0, 100%, 67%, 0.060);
+    background-color: hsla(0, 100%, 67%, 0.103);
 }
 
 .summary_memory h3 {
@@ -143,7 +143,7 @@ body {
 }
 
 .summary_memory {
-    background-color: hsla(39, 100%, 56%, 0.060);
+    background-color: hsla(39, 100%, 56%, 0.103);
 }
 
 .summary_verbal h3 {
@@ -151,7 +151,7 @@ body {
 }
 
 .summary_verbal {
-    background-color: hsla(166, 100%, 37%, 0.060);
+    background-color: hsla(166, 100%, 37%, 0.102);
 }
 
 .summary_visual h3 {
@@ -159,7 +159,7 @@ body {
 }
 
 .summary_visual {
-    background-color: hsla(234, 85%, 45%, 0.060);
+    background-color: hsla(234, 85%, 45%, 0.103);
 }
 
 .summary_value {
@@ -212,41 +212,67 @@ body {
     }
 
     .card {
-        border:2px solid red;
-        width: 50vw;
+        /* border:2px solid red; */
+        width: 35vw;
         height: 50vh;
         margin: auto;
         border-radius: 30px;
         display: flex;
+        box-shadow: 15px 20px 15px #00bd911a;
     }
 
     .section_results {
         /* display: none; */
         border-radius: 30px;
         height: 100%;
-        width: 50vw;
+        width: 30vw;
         gap: 0;
     }
 
     .section_results .section_title {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .result_value {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
     }
 
     .section_results h1 {
         padding-top: 0;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .section_results p {
-        font-size: 1rem;
+        font-size: .7rem;
     }
 
     /* FALTA BOX-SHADOW E ORGANIZAR SECTION SUMMARY */
-    .section_summary {}
+    .section_summary {
+        padding: 25px 25px;
+    }
+
+    .section_summary .section_title {
+        font-size: 1rem;
+    }
+
+    .section_summary ul li {
+        height: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    .summary_category h3 {
+        font-size: .8rem;
+    }
+
+    .summary_value {
+        font-size: .7rem;
+    }
+
+    .section_summary button {
+        height: 2.2rem;
+        font-size: .8rem;
+        margin-top: 15px;
+    }
 }
