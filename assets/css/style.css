@@ -213,12 +213,12 @@ body {
 
     .card {
         /* border:2px solid red; */
-        width: 35vw;
-        height: 50vh;
+        width: 40vw;
+        height: 40vh;
         margin: auto;
         border-radius: 30px;
         display: flex;
-        box-shadow: 15px 20px 15px #00bd911a;
+        box-shadow: 15px 20px 15px #282b2a1a;
     }
 
     .section_results {
@@ -273,6 +273,53 @@ body {
     .section_summary button {
         height: 2.2rem;
         font-size: .8rem;
-        margin-top: 15px;
+        /* margin-top: 5px; */
     }
+}
+
+
+@media(min-width: 1440px) {
+    body {
+        /* background-color: aquamarine; */
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .card {
+        /* border:2px solid red; */
+        width: 40vw;
+        height: 40vh;
+        margin: auto;
+        border-radius: 30px;
+        display: flex;
+        box-shadow: 15px 20px 15px #282b2a1a;
+    }
+
+    .section_results {
+        /* display: none; */
+        border-radius: 30px;
+        height: 100%;
+        width: 30vw;
+        gap: 0;
+    }
+
+    .result_value {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    .section_results h1 {
+        padding-top: 0;
+    }
+
+    /* FALTA BOX-SHADOW E ORGANIZAR SECTION SUMMARY */
+    .section_summary {
+        padding: 25px 25px;
+    }
+
 }
