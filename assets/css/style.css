@@ -200,7 +200,7 @@ body {
     color: var(--light-red);
 }
 
-@media(min-width: 1440px) {
+@media(min-width: 1200px) {
     body {
         /* background-color: aquamarine; */
         width: 100vw;
