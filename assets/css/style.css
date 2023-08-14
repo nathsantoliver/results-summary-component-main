@@ -200,83 +200,6 @@ body {
     color: var(--light-red);
 }
 
-@media(min-width: 1200px) {
-    body {
-        /* background-color: aquamarine; */
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-    }
-
-    .card {
-        /* border:2px solid red; */
-        width: 40vw;
-        height: 45vh;
-        margin: auto;
-        border-radius: 30px;
-        display: flex;
-        box-shadow: 15px 20px 15px #282b2a1a;
-    }
-
-    .section_results {
-        /* display: none; */
-        border-radius: 30px;
-        height: 100%;
-        width: 30vw;
-        gap: 0;
-    }
-
-    .section_results .section_title {
-        font-size: 1rem;
-    }
-
-    .result_value {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-    }
-
-    .section_results h1 {
-        padding-top: 0;
-        font-size: 1.2rem;
-    }
-
-    .section_results p {
-        font-size: .7rem;
-    }
-
-    /* FALTA BOX-SHADOW E ORGANIZAR SECTION SUMMARY */
-    .section_summary {
-        padding: 25px 25px;
-    }
-
-    .section_summary .section_title {
-        font-size: 1rem;
-    }
-
-    .section_summary ul li {
-        height: 2.2rem;
-        margin-bottom: 10px;
-    }
-
-    .summary_category h3 {
-        font-size: .8rem;
-    }
-
-    .summary_value {
-        font-size: .7rem;
-    }
-
-    .section_summary button {
-        height: 2.2rem;
-        font-size: .8rem;
-    }
-}
-
-
 @media(min-width: 1440px) {
     body {
         /* background-color: aquamarine; */
@@ -306,6 +229,81 @@ body {
         gap: 0;
     }
 
+    .section_results .section_title {
+        /* font-size: 1rem; */
+    }
+
+    .result_value {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    .section_results h1 {
+        padding-top: 0;
+        /* font-size: 1.2rem; */
+    }
+
+    .section_results p {
+        /* font-size: .7rem; */
+    }
+
+    /* FALTA BOX-SHADOW E ORGANIZAR SECTION SUMMARY */
+    .section_summary {
+        padding: 25px 25px;
+    }
+
+    .section_summary .section_title {
+        /* font-size: 1rem; */
+    }
+
+    .section_summary ul li {
+        /* height: 2.2rem; */
+        margin-bottom: 10px;
+    }
+
+    .summary_category h3 {
+        /* font-size: .8rem; */
+    }
+
+    .summary_value {
+        /* font-size: .7rem; */
+    }
+
+    .section_summary button {
+        /* height: 2.2rem; */
+        /* font-size: .8rem; */
+        /* margin-top: 5px; */
+    }
+}
+
+/*
+@media(min-width: 1440px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .card {
+        width: 40vw;
+        height: 40vh;
+        margin: auto;
+        border-radius: 30px;
+        display: flex;
+        box-shadow: 15px 20px 15px #282b2a1a;
+    }
+
+    .section_results {
+        border-radius: 30px;
+        height: 100%;
+        width: 30vw;
+        gap: 0;
+    }
+
     .result_value {
         width: 120px;
         height: 120px;
@@ -316,9 +314,8 @@ body {
         padding-top: 0;
     }
 
-    /* FALTA BOX-SHADOW E ORGANIZAR SECTION SUMMARY */
     .section_summary {
         padding: 25px 25px;
     }
 
-}
+}*/
