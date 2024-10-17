@@ -1,8 +1,10 @@
 const divSummary = document.querySelector('.summary');
 const resultValue = document.querySelector('.result_value');
 
-resultSection();
-summarySection();
+async function main() {
+    await resultSection();
+    await summarySection();
+}
 
 async function resultSection() {
     const response = await fetch('data.json');
@@ -63,3 +65,5 @@ async function summarySection() {
                             </div>
                             </li>`;
 }
+
+main()
